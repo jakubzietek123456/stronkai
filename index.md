@@ -4,6 +4,7 @@ layout: default
 
 # Języki Programowania
 
+---
 ## Java
 
 Java to wysokopoziomowy, obiektowy język programowania, który jest zaprojektowany tak, aby miał jak najmniej zależności implementacyjnych.
@@ -22,6 +23,7 @@ Java to wysokopoziomowy, obiektowy język programowania, który jest zaprojektow
 - **Klasy abstrakcyjne**
 - **Interfejsy**
 
+---
 ## Kotlin
 
 Kotlin to statycznie typowany, ogólnego przeznaczenia język programowania z inferencją typów. Jest zaprojektowany do pełnej interoperacyjności z Javą.
@@ -40,6 +42,7 @@ Kotlin to statycznie typowany, ogólnego przeznaczenia język programowania z in
 - **Korutyny**
 - **Funkcje rozszerzające**
 
+---
 ## C++
 
 C++ to ogólnego przeznaczenia język programowania, stworzony jako rozszerzenie języka C, czyli "C z klasami".
