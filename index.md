@@ -2,13 +2,6 @@
 layout: default
 ---
 
-# Autor
-
-**Jakub Ziętek**  
-*Programista 2A*
-
----
-
 # Języki Programowania
 
 ## Java
@@ -64,6 +57,12 @@ C++ to ogólnego przeznaczenia język programowania, stworzony jako rozszerzenie
 - **Polimorfizm**
 - **Szablony**
 - **Standardowa Biblioteka Szablonów (STL)**
+
+---
+# Autor
+
+**Jakub Ziętek**  
+*Programista 2A*
 
 ---
 
