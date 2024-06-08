@@ -2,9 +2,7 @@
 layout: default
 ---
 
-<div style="text-align: center;">
-  # Jak Zacząć Programować?
-</div>
+#                                           Jak Zacząć Programować?
 
 ---
 ## Java
