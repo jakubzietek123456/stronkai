@@ -2,7 +2,9 @@
 layout: default
 ---
 
-# Języki Programowania
+<div style="text-align: center;">
+  # Jak Zacząć Programować?
+</div>
 
 ---
 ## Java
