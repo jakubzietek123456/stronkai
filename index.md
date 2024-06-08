@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div style="text-align: center;">
-  # Jak Zacząć Programować?
+  <h1> Jak Zacząć Programować?</h1>
 </div>
 
 ---
@@ -56,6 +56,9 @@ Java to wysokopoziomowy, obiektowy język programowania, który jest zaprojektow
 - **Klasy abstrakcyjne**
 - **Interfejsy**
 
+[Przejdź do Podstaw](java/podstawy.md)
+[Przejdź do Średnio zaawansowanych](java/srednio-zaawansowane.md)
+
 ---
 ## Kotlin
 
@@ -75,6 +78,9 @@ Kotlin to statycznie typowany, ogólnego przeznaczenia język programowania z in
 - **Korutyny**
 - **Funkcje rozszerzające**
 
+[Przejdź do Podstaw](kotlin/podstawy.md)
+[Przejdź do Średnio zaawansowanych](kotlin/srednio-zaawansowane.md)
+
 ---
 ## C++
 
@@ -93,6 +99,53 @@ C++ to ogólnego przeznaczenia język programowania, stworzony jako rozszerzenie
 - **Polimorfizm**
 - **Szablony**
 - **Standardowa Biblioteka Szablonów (STL)**
+
+[Przejdź do Podstaw](cpp/podstawy.md)
+[Przejdź do Średnio zaawansowanych](cpp/srednio-zaawansowane.md)
+
+---
+## Python
+
+Python to wszechstronny, wysokopoziomowy język programowania, który jest łatwy do nauki i używania.
+
+### Podstawy
+- **Składnia**
+- **Zmienne**
+- **Typy danych**
+- **Operatory**
+- **Instrukcje sterujące**
+
+### Średnio zaawansowane
+- **Funkcje**
+- **Moduły**
+- **Obsługa wyjątków**
+- **Praca z plikami**
+- **Klasy i obiekty**
+
+[Przejdź do Podstaw](python/podstawy.md)
+[Przejdź do Średnio zaawansowanych](python/srednio-zaawansowane.md)
+
+---
+## JavaScript
+
+JavaScript to język skryptowy, który jest podstawowym językiem programowania stron internetowych.
+
+### Podstawy
+- **Składnia**
+- **Zmienne**
+- **Typy danych**
+- **Operatory**
+- **Instrukcje sterujące**
+
+### Średnio zaawansowane
+- **Funkcje**
+- **Obiekty**
+- **Asynchroniczność**
+- **DOM Manipulacja**
+- **Prototypy**
+
+[Przejdź do Podstaw](javascript/podstawy.md)
+[Przejdź do Średnio zaawansowanych](javascript/srednio-zaawansowane.md)
 
 ---
 # Autor
