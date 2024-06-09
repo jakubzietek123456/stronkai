@@ -19,5 +19,50 @@ C++ posiada bogaty zestaw operatorów, zarówno arytmetycznych, logicznych, przy
 ## Struktury sterujące
 Instrukcje warunkowe (if, else if, else) i pętle (for, while, do while) są podstawowymi mechanizmami kontroli przepływu w C++. Pozwalają one na wykonywanie określonych fragmentów kodu w zależności od warunków logicznych oraz na iterację przez kolekcje danych lub wykonanie określonych działań określoną ilość razy.
 
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+// Deklaracja funkcji
+void przywitaj(string imie);
+
+int main() {
+    // Składnia
+    cout << "Witaj w programie w jezyku C++!" << endl;
+
+    // Zmienne
+    int liczba = 10;
+    const double pi = 3.14;
+    cout << "Liczba: " << liczba << ", PI: " << pi << endl;
+
+    // Typy danych
+    char znak = 'A';
+    bool prawda = true;
+    cout << "Znak: " << znak << ", Prawda: " << prawda << endl;
+
+    // Operatory
+    int a = 5, b = 3;
+    int suma = a + b;
+    cout << "Suma: " << suma << endl;
+
+    // Struktury sterujące
+    if (liczba > 5) {
+        cout << liczba << " jest wieksza od 5." << endl;
+    } else {
+        cout << liczba << " nie jest wieksza od 5." << endl;
+    }
+
+    // Wywołanie funkcji
+    przywitaj("Jan");
+
+    return 0;
+}
+
+// Definicja funkcji
+void przywitaj(string imie) {
+    cout << "Witaj, " << imie << "!" << endl;
+}
+
 [Powrót](../)
 
