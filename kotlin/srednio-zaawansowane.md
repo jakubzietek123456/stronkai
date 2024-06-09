@@ -19,4 +19,61 @@ Korutyny są nowym podejściem do wielowątkowości w Kotlinie. Pozwalają one n
 ## Funkcje rozszerzające
 Funkcje rozszerzające pozwalają na dodanie nowej funkcjonalności do istniejących klas bez modyfikowania ich kodu. W Kotlinie możemy definiować funkcje rozszerzające, które wydają się być częścią klasy, chociaż są zdefiniowane poza nią.
 
+import kotlinx.coroutines.*
+
+fun main() {
+    // Klasy i obiekty
+    val samochod = Samochod("Toyota", "Corolla")
+    println("Marka samochodu: ${samochod.marka}, Model: ${samochod.model}")
+
+    // Dziedziczenie
+    val kot = Kot("Mruczek")
+    kot.dzwiek()
+
+    // Interfejsy
+    val pies = Pies("Burek")
+    pies.dzwiek()
+
+    // Korutyny
+    println("Początek wykonywania korutyny")
+    GlobalScope.launch {
+        delay(1000)
+        println("Zakończenie korutyny po opóźnieniu 1 sekundy")
+    }
+    println("Kontynuacja wykonywania programu")
+
+    // Funkcje rozszerzające
+    val liczba = 5
+    println("Liczba $liczba jest parzysta: ${liczba.czyParzysta()}")
+}
+
+// Klasy i obiekty
+class Samochod(val marka: String, val model: String)
+
+// Dziedziczenie
+open class Zwierze(val imie: String) {
+    open fun dzwiek() {
+        println("$imie wydaje dźwięk")
+    }
+}
+
+class Kot(imie: String) : Zwierze(imie)
+
+// Interfejsy
+interface Dzwiek {
+    fun dzwiek()
+}
+
+class Pies(val imie: String) : Dzwiek {
+    override fun dzwiek() {
+        println("$imie szczeka")
+    }
+}
+
+// Funkcje rozszerzające
+fun Int.czyParzysta(): Boolean {
+    return this % 2 == 0
+}
+
+
 [Powrót](../)
