@@ -19,4 +19,51 @@ Document Object Model (DOM) jest interfejsem reprezentującym strukturę dokumen
 ## Prototypy
 Prototypy są fundamentalnym mechanizmem dziedziczenia w JavaScript. Każdy obiekt w JavaScript ma odwołanie do swojego prototypu, który jest obiektem samym w sobie. Dzięki prototypom, właściwości i metody mogą być dziedziczone przez inne obiekty.
 
+// Funkcje
+function powitanie(imie) {
+    return "Witaj, " + imie + "!";
+}
+
+let komunikat = powitanie("Jan");
+console.log(komunikat);
+
+// Obiekty
+let samochod = {
+    marka: "Toyota",
+    model: "Corolla",
+    rocznik: 2020,
+    informacje: function() {
+        return this.marka + " " + this.model + ", rocznik " + this.rocznik;
+    }
+};
+
+console.log("Informacje o samochodzie:", samochod.informacje());
+
+// Asynchroniczność
+function pobierzDane() {
+    setTimeout(function() {
+        console.log("Pobrano dane z serwera.");
+    }, 2000);
+}
+
+pobierzDane();
+
+// DOM Manipulacja
+document.getElementById("przycisk").addEventListener("click", function() {
+    document.getElementById("tekst").innerHTML = "Kliknięto przycisk!";
+});
+
+// Prototypy
+function Ksiazka(tytul, autor) {
+    this.tytul = tytul;
+    this.autor = autor;
+}
+
+Ksiazka.prototype.informacje = function() {
+    return this.tytul + " - " + this.autor;
+};
+
+let ksiazka = new Ksiazka("W pustyni i w puszczy", "Henryk Sienkiewicz");
+console.log("Informacje o książce:", ksiazka.informacje());
+
 [Powrót](../)
