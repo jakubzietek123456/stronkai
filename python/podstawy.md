@@ -19,4 +19,30 @@ Python dostarcza wiele różnych operatorów, zarówno arytmetycznych (+, -, *, 
 ## Instrukcje sterujące
 Instrukcje warunkowe (if, elif, else) i pętle (for, while) są kluczowymi elementami sterowania przepływem w Pythonie. Pozwalają one na wykonanie określonych fragmentów kodu w zależności od warunków logicznych oraz na iterację przez kolekcje danych lub wykonanie określonych działań określoną ilość razy.
 
+# Składnia
+print("Witaj w programie w języku Python!")
+
+# Zmienne
+liczba = 10
+pi = 3.14
+imie = "Jan"
+print("Liczba:", liczba, ", PI:", pi, ", Imie:", imie)
+
+# Typy danych
+znak = 'A'
+prawda = True
+print("Znak:", znak, ", Prawda:", prawda)
+
+# Operatory
+a = 5
+b = 3
+suma = a + b
+print("Suma:", suma)
+
+# Instrukcje sterujące
+if liczba > 5:
+    print(liczba, "jest większa od 5.")
+else:
+    print(liczba, "nie jest większa od 5.")
+
 [Powrót](../)
