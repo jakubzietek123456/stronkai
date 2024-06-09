@@ -19,4 +19,58 @@ Szablony w C++ umożliwiają tworzenie ogólnych typów i funkcji, które mogą 
 ## Standardowa Biblioteka Szablonów (STL)
 STL jest zestawem bibliotek szablonów, które dostarczają wiele przydatnych kontenerów danych, algorytmów i narzędzi do programowania w C++. STL zawiera m.in. wektory, listy, mapy, stosy, kolejki, a także algorytmy sortowania, wyszukiwania, manipulacji danymi itp. Używanie STL może znacząco ułatwić i przyspieszyć pisanie kodu w C++.
 
+#include <iostream>
+#include <vector>
+
+using namespace std;
+
+// Klasy i obiekty
+class Figura {
+public:
+    virtual void wyswietl() {
+        cout << "To jest figura." << endl;
+    }
+};
+
+class Kolo : public Figura {
+public:
+    void wyswietl() override {
+        cout << "To jest kolo." << endl;
+    }
+};
+
+// Dziedziczenie
+
+// Polimorfizm
+void wyswietlFigure(Figura* figura) {
+    figura->wyswietl();
+}
+
+// Szablony
+template<typename T>
+T suma(T a, T b) {
+    return a + b;
+}
+
+// Standardowa Biblioteka Szablonów (STL)
+int main() {
+    // Kolekcje z STL
+    vector<int> liczby = {1, 2, 3, 4, 5};
+    for (int liczba : liczby) {
+        cout << liczba << " ";
+    }
+    cout << endl;
+
+    // Wywołanie funkcji szablonowej
+    cout << "Suma: " << suma(3, 5) << endl;
+
+    // Polimorfizm
+    Figura* figura = new Kolo();
+    wyswietlFigure(figura);
+
+    delete figura;
+
+    return 0;
+}
+
 [Powrót](../)
