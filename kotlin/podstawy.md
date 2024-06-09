@@ -19,4 +19,36 @@ Kotlin dostarcza standardowe instrukcje sterujące, takie jak instrukcje warunko
 ## Funkcje
 Definiowanie i używanie funkcji w Kotlinie jest łatwe i intuicyjne. Funkcje mogą przyjmować argumenty i zwracać wartości. Możliwe jest również zagnieżdżanie funkcji i deklarowanie ich jako wyrażeń.
 
+```kotlin
+fun main() {
+    // Składnia
+    println("Witaj w programie w języku Kotlin!")
+
+    // Zmienne
+    var liczba = 10
+    val imie = "Jan"
+    println("$imie ma $liczba lat.")
+
+    // Typy danych
+    val pi: Double = 3.14
+    val znak: Char = 'A'
+    val prawda: Boolean = true
+    println("Wartość PI: $pi, Znak: $znak, Prawda: $prawda")
+
+    // Instrukcje sterujące
+    if (liczba > 5) {
+        println("$liczba jest większa od 5.")
+    } else {
+        println("$liczba nie jest większa od 5.")
+    }
+
+    // Funkcje
+    val wynik = dodaj(5, 3)
+    println("Wynik dodawania: $wynik")
+}
+
+fun dodaj(a: Int, b: Int): Int {
+    return a + b
+}
+
 [Powrót](../)
