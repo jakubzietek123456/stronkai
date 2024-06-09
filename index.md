@@ -161,8 +161,3 @@ JavaScript to język skryptowy, który jest podstawowym językiem programowania 
 2. [Partner 2](https://bartdurak.github.io/1a/)
 3. [Partner 3](https://m.facebook.com/zstkolbuszowa)
 
----
-
-### Kliknij na obrazek, aby odwiedzić stronę partnera!
-
-[![Odwiedź Stronę Partnera](https://github.githubassets.com/images/icons/emoji/octocat.png)](http://example-partner-site.com)
