@@ -19,4 +19,48 @@ Operacje na plikach są często wykonywane w programowaniu. W Pythonie mamy wiel
 ## Klasy i obiekty
 Programowanie obiektowe jest silnie wspierane w Pythonie. Klasy są szablonami do tworzenia obiektów, które mogą zawierać atrybuty (zmienne) i metody (funkcje). Obiekty są instancjami klas, co oznacza, że ​​reprezentują konkretne egzemplarze danej klasy. W Pythonie dziedziczenie, polimorfizm i enkapsulacja są podstawowymi mechanizmami programowania obiektowego.
 
+# Funkcje
+def dodaj(a, b):
+    return a + b
+
+def odejmij(a, b):
+    return a - b
+
+def pomnoz(a, b):
+    return a * b
+
+print("Wynik dodawania:", dodaj(5, 3))
+print("Wynik odejmowania:", odejmij(5, 3))
+print("Wynik mnożenia:", pomnoz(5, 3))
+
+# Moduły
+import math
+print("Wartość pi:", math.pi)
+
+# Obsługa wyjątków
+try:
+    dzielenie = 10 / 0
+except ZeroDivisionError:
+    print("Nie można dzielić przez zero.")
+
+# Praca z plikami
+with open("plik.txt", "w") as plik:
+    plik.write("To jest przykładowy tekst.")
+
+with open("plik.txt", "r") as plik:
+    print("Zawartość pliku:", plik.read())
+
+# Klasy i obiekty
+class Samochod:
+    def __init__(self, marka, model):
+        self.marka = marka
+        self.model = model
+
+    def info(self):
+        print("Marka:", self.marka)
+        print("Model:", self.model)
+
+samochod = Samochod("Toyota", "Corolla")
+samochod.info()
+
 [Powrót](../)
