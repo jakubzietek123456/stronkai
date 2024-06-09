@@ -19,4 +19,31 @@ JavaScript posiada wiele operatorów, zarówno arytmetycznych (+, -, *, /), jak 
 ## Instrukcje sterujące
 Instrukcje warunkowe (if, else if, else) i pętle (for, while, do while) są kluczowymi elementami sterowania przepływem w JavaScript. Pozwalają one na wykonanie określonych fragmentów kodu w zależności od warunków logicznych oraz na iterację przez kolekcje danych lub wykonanie określonych działań określoną ilość razy.
 
+// Składnia
+console.log("Witaj w programie w języku JavaScript!");
+
+// Zmienne
+var liczba = 10;
+let pi = 3.14;
+const imie = "Jan";
+console.log("Liczba:", liczba, ", PI:", pi, ", Imie:", imie);
+
+// Typy danych
+let znak = 'A';
+let prawda = true;
+console.log("Znak:", znak, ", Prawda:", prawda);
+
+// Operatory
+let a = 5;
+let b = 3;
+let suma = a + b;
+console.log("Suma:", suma);
+
+// Instrukcje sterujące
+if (liczba > 5) {
+    console.log(liczba, "jest większa od 5.");
+} else {
+    console.log(liczba, "nie jest większa od 5.");
+}
+
 [Powrót](../)
