@@ -20,8 +20,11 @@ Zmienne są podstawowymi elementami przechowywania danych w języku Java i są p
 ## Przykłady deklaracji zmiennych w języku Java
 
 ```java
+
 int liczbaCalkowita; // Deklaracja zmiennej
+
 double liczbaZmiennoprzecinkowa = 5.5; // Deklaracja i inicjalizacja w jednym kroku
+
 String tekst = "To jest tekst"; // Deklaracja i inicjalizacja zmiennej typu String
 
 
@@ -62,10 +65,15 @@ Typy referencyjne w języku Java służą do przechowywania referencji do obiekt
 ## Przykłady deklaracji zmiennych z różnymi typami danych w języku Java
 
 ```java
+
 int liczbaCalkowita; // Deklaracja zmiennej typu całkowitego
+
 double liczbaZmiennoprzecinkowa = 5.5; // Deklaracja i inicjalizacja zmiennej typu zmiennoprzecinkowego
+
 String tekst = "To jest tekst"; // Deklaracja i inicjalizacja zmiennej typu String
+
 char znak = 'A'; // Deklaracja i inicjalizacja zmiennej typu znakowego
+
 boolean czyPrawda = true; // Deklaracja i inicjalizacja zmiennej typu logicznego
 
 ## Operatory w języku Java
@@ -123,37 +131,59 @@ To jest przegląd operatorów w języku Java. Każdy z tych operatorów może by
 ## Przykład użycia operatorów w języku Java
 
 ```java
+
 int a = 5;
+
 int b = 3;
 
 // Operatory arytmetyczne
+
 int suma = a + b;
+
 int roznica = a - b;
+
 int iloczyn = a * b;
+
 int iloraz = a / b;
+
 int reszta = a % b;
 
 // Operatory przypisania
+
 a += b;
+
 b -= a;
+
 a *= b;
+
 b /= a;
+
 a %= b;
 
 // Operatory porównania
+
 boolean czyRowne = (a == b);
+
 boolean czyWieksze = (a > b);
+
 boolean czyMniejsze = (a < b);
+
 boolean czyRowneLubWieksze = (a >= b);
+
 boolean czyRowneLubMniejsze = (a <= b);
+
 boolean czyRozne = (a != b);
 
 // Operatory logiczne
+
 boolean czyPrawda = true;
+
 boolean czyFalsz = false;
 
 boolean logiczneAND = czyPrawda && czyFalsz;
+
 boolean logiczneOR = czyPrawda || czyFalsz;
+
 boolean logiczneNOT = !czyPrawda;
 
 ## Instrukcje sterujące w języku Java
@@ -179,9 +209,11 @@ Instrukcje sterujące są kluczowymi elementami w programowaniu, pozwalającymi 
 ## Przykład użycia instrukcji sterujących w języku Java
 
 ```java
+
 int liczba = 10;
 
 // Instrukcja warunkowa if-else
+
 if (liczba > 0) {
     System.out.println("Liczba jest dodatnia");
 } else if (liczba < 0) {
@@ -191,11 +223,13 @@ if (liczba > 0) {
 }
 
 // Pętla for
+
 for (int i = 0; i < 5; i++) {
     System.out.println("Wartość i: " + i);
 }
 
 // Pętla while
+
 int j = 0;
 while (j < 5) {
     System.out.println("Wartość j: " + j);
@@ -203,7 +237,9 @@ while (j < 5) {
 }
 
 // Pętla do-while
+
 int k = 0;
+
 do {
     System.out.println("Wartość k: " + k);
     k++;
